@@ -1,0 +1,31 @@
+{
+  "id": 683475,
+  "num_rows": 10,
+  "file_format": "json",
+  "name": "orders",
+  "array": true,
+  "columns": [
+    {
+      "name": "order_id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "user_id",
+      "null_percentage": 0,
+      "type": "Dataset Column",
+      "dataset": "users",
+      "column": "id",
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "product",
+      "null_percentage": 0,
+      "type": "Product (Grocery)",
+      "formula": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 683469,
+  "num_rows": 10,
+  "file_format": "json",
+  "name": "customers",
+  "array": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "first_name",
+      "null_percentage": 0,
+      "type": "First Name",
+      "formula": null
+    },
+    {
+      "name": "last_name",
+      "null_percentage": 0,
+      "type": "Last Name",
+      "formula": null
+    },
+    {
+      "name": "email",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "gender",
+      "null_percentage": 0,
+      "type": "Gender",
+      "formula": null
+    },
+    {
+      "name": "ip_address",
+      "null_percentage": 0,
+      "type": "IP Address v4",
+      "formula": null
+    }
+  ]
+}

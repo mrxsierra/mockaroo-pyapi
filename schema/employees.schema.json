@@ -1,0 +1,31 @@
+{
+  "id": 683477,
+  "num_rows": 10,
+  "file_format": "json",
+  "name": "employees",
+  "array": true,
+  "columns": [
+    {
+      "name": "emp_id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "company_id",
+      "null_percentage": 0,
+      "type": "Dataset Column",
+      "dataset": "companies",
+      "column": "company_id",
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": 683476,
+  "num_rows": 10,
+  "file_format": "json",
+  "name": "companies",
+  "array": true,
+  "columns": [
+    {
+      "name": "company_id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "company_name",
+      "null_percentage": 0,
+      "type": "Company Name",
+      "formula": null
+    }
+  ]
+}
