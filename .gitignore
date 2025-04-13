@@ -2,3 +2,14 @@
 .venv
 __pycache__/
 *.pyc
+.ruff*
+.mypy_cache/
+*.egg-info/
+*.egg
+.vscode/
+.vscode/*
+*.DS_Store
+*.db
+*.sqlite3
+*.log
+*.pkl
